@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\lib\inc -I..\bsp -I..\app -I..\inc -I..\myos\port -I..\myos\myos -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" -o "..\flashout\fsmc_sram.o" --omf_browse "..\flashout\fsmc_sram.crf" --depend "..\flashout\fsmc_sram.d" "..\bsp\fsmc_sram.c"

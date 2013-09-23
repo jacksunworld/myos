@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\lib\inc -I..\bsp -I..\app -I..\inc -I..\myos\port -I..\myos\myos -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" -o "..\flashout\stm32f10x_usart.o" --omf_browse "..\flashout\stm32f10x_usart.crf" --depend "..\flashout\stm32f10x_usart.d" "..\lib\src\stm32f10x_usart.c"

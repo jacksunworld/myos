@@ -1,0 +1,17 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\boxwork\myos\project\myos.uvproj
+Project File Date:  09/23/2013
+
+<h2>Output:</h2>
+Build target 'myos'
+linking...
+Program Size: Code=6224 RO-data=544 RW-data=48 ZI-data=4032  
+FromELF: creating hex file...
+User command #1: C:\Keil\ARM\BIN40\fromelf.exe --bin  --output ..\flashout\myos.bin ..\flashout\myos.axf
+"..\flashout\myos.axf" - 0 Error(s), 0 Warning(s).
+Clean started: Project: 'myos'
+   deleting intermediate output files for target 'myos'

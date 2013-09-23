@@ -1,0 +1,32 @@
+*** Creating Trace Output File '..\flashout\myos.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"..\flashout\stm32f10x.o"'
+### List of Objects: adding '"..\flashout\main.o"'
+### List of Objects: adding '"..\flashout\os_task.o"'
+### List of Objects: adding '"..\flashout\os_core.o"'
+### List of Objects: adding '"..\flashout\stm32f10x_gpio.o"'
+### List of Objects: adding '"..\flashout\stm32f10x_lib.o"'
+### List of Objects: adding '"..\flashout\stm32f10x_nvic.o"'
+### List of Objects: adding '"..\flashout\stm32f10x_pwr.o"'
+### List of Objects: adding '"..\flashout\stm32f10x_rcc.o"'
+### List of Objects: adding '"..\flashout\stm32f10x_systick.o"'
+### List of Objects: adding '"..\flashout\cortexm3_macro.o"'
+### List of Objects: adding '"..\flashout\bsp.o"'
+### List of Objects: adding '"..\flashout\cpu.o"'
+### List of Objects: adding '"..\flashout\cpu_a.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "..\flashout\stm32f10x.o" "..\flashout\main.o" "..\flashout\os_task.o" "..\flashout\os_core.o" "..\flashout\stm32f10x_gpio.o" "..\flashout\stm32f10x_lib.o" "..\flashout\stm32f10x_nvic.o" "..\flashout\stm32f10x_pwr.o" "..\flashout\stm32f10x_rcc.o" "..\flashout\stm32f10x_systick.o" "..\flashout\cortexm3_macro.o" "..\flashout\bsp.o" "..\flashout\cpu.o" "..\flashout\cpu_a.o" --strict --scatter "..\flashout\myos.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list "..\list\myos.map" -o "..\flashout\myos.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '..\flashout\myos.axf'
+### ADS-LD Command File: '..\flashout\myos.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '..\flashout\myos.lnp', Handle=0x00000238
+### Writing '.lnp' file
+### ADS-LD Command file '..\flashout\myos.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
